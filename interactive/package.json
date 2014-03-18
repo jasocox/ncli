@@ -1,0 +1,12 @@
+{
+  "name": "interactive",
+  "description": "Examples of complex interaction on the command line using Node.js",
+  "author": "Jason Cox <jasonwilburcox@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/jasocox/ncli"
+  },
+  "dependencies": {
+    "stdio": "0.1.x"
+  }
+}
