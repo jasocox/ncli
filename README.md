@@ -10,18 +10,20 @@ The first step of making a Node.js script is to install Node.js!
 
 Next, you will need to add this line to the top of any script:
 
-#!/usr/bin/env node
+`#!/usr/bin/env node`
 
 Notice that it does not reference Node.js directly, but instead uses env to find it. This is important if you would like your script to be usable by others.
 
 Next, make a file and make it executable. Here is how to do this:
 
-chmod u+x hello_world.js
+`chmod u+x hello_world.js`
 
 Finally, I like to make a soft link to the script in my ~/bin directory (make sure ~/bin is in you path!):
 
+```
 cd ~/bin
 ln -s ~/Projects/Node.js/ngit/ngit.js ngit
+```
 
 This is important, because it lets you keep your actual code outside of your ~/bin directory, you don't have to add a bunch of projects to your path, and you don't have to move files around every time you make a change. Also, it prevents lost code if one time in a hurry, you edited the script in your ~/bin version directly. In this case, editing the version in ~/bin is the same as editing the version in your git repo. Well, except that I drop the .js on the link, and my editor cannot tell it is a JavaScript file.
 
