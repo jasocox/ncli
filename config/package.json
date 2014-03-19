@@ -1,0 +1,12 @@
+{
+  "name": "config",
+  "description": "Examples of taking command line options for a Node.js script",
+  "author": "Jason Cox <jasonwilburcox@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/jasocox/ncli"
+  },
+  "dependencies": {
+    "jsonfile": "1.1.x"
+  }
+}

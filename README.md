@@ -46,3 +46,7 @@ For a web app, you have many users at the same time. If you asked a user for inf
 ### Interface
 
 The interface examples demo some really cool things that you can do using Node.js on the command line. I'm sure you could make tables with bash, but I could not imagine how much of a pain that would be. With Node.js this is incredibly easy. Also, it shows how to use colors. Celery really shines here, and I wish they would add it to npm.
+
+### Config
+
+This example shows how to use an external file for configuration for a script
