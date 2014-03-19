@@ -33,10 +33,16 @@ This is important, because it lets you keep your actual code outside of your ~/b
 
 This project is organized into categories. There is a directory called options, prompting, and interface.
 
+### Options
+
 The options examples are for taking parameters from the command line. This is probably the most important part of making a useful cli script. Without using a proper option parser, a user would have to read your script to determine how to use it. Most option parsers can display a helpful usage document for free. This means that a user can use your script right out of the box and get back to what they were working on before.
+
+### Prompting
 
 The prompting examples are for how to prompt the user for more information. I am not happy with any prompter that I found. I get that doing everything asynchronously can be a very useful way to code, but I do not believe it makes sense with command line scripting. Cli scripts are almost always inherently procedural.
 
 For a web app, you have many users at the same time. If you asked a user for information and everything halted, you will have a lot of other unhappy users. With a cli script, if you are prompting a user for more information, there is not really anything else to do, until you have the answer. Making a prompt use callbacks in a cli script is just silly. I think this means I need to write my own....
+
+### Interface
 
 The interface examples demo some really cool things that you can do using Node.js on the command line. I'm sure you could make tables with bash, but I could not imagine how much of a pain that would be. With Node.js this is incredibly easy. Also, it shows how to use colors. Celery really shines here, and I wish they would add it to npm.
