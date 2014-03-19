@@ -1,5 +1,5 @@
 {
-  "name": "interactive",
+  "name": "prompting",
   "description": "Examples of complex interaction on the command line using Node.js",
   "author": "Jason Cox <jasonwilburcox@gmail.com>",
   "repository": {
