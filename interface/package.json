@@ -7,6 +7,7 @@
     "url": "http://www.github.com/jasocox/ncli"
   },
   "dependencies": {
+    "cli-table": "0.3.x",
     "progress": "1.1.x",
     "colors": "0.6.x"
   }
